@@ -2,6 +2,11 @@ int add(int a,int b){
     return a+b;
 }
 
+//functions can be stored in variables
+//pased as arguments
+//returns from function
+
+
 //positional optional parameters
 void greet(String name, [String? title]){
     print("Hello $title $name");
